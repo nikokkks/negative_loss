@@ -1,0 +1,6 @@
+tabular walking26
+
+ce      400 train1+train2 f1 macro score on validation 1000 1000 5000    lr-phase2 1e-3	   
+ce+loss 400 train1+train2 f1 macro score on valdiation 1000 1000 5000    lr-phase2 1e-3    
+
+

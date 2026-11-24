@@ -1,0 +1,16 @@
+# Checkpoints & PyTorch models
+**/checkpoints*/
+*.pt
+*.pth
+
+# Datasets
+**/data/
+
+# Python / Virtualenv
+__pycache__/
+*.py[cod]
+.venv/
+
+# Skills & IDE
+skills/
+.idea/misc.xml

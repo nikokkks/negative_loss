@@ -1,0 +1,16 @@
+vision CIFAR10
+
+ce      30 train1+train2 f1 macro score on validation 1000 1000 5000    lr-phase2 5e-6     0.5519 
+ce      30 train1+train2 f1 macro score on validation 1000 1000 5000    lr-phase2 1e-5     0.5684 0.5706 
+ce      30 train1+train2 f1 macro score on validation 1000 1000 5000    lr-phase2 1e-4     0.5973
+ce      30 train1+train2 f1 macro score on validation 1000 1000 5000    lr-phase2 1e-3	   0.6447 
+ce      90 train1+train2 f1 macro score on validation 1000 1000 5000    lr-phase2 1e-3	   0.6663
+ce     400 train1+train2 f1 macro score on validation 3000 3000 3000    lr-phase2 1e-4     0.7476
+
+loss    30 train1+train2 f1 macro score on valdiation 1000 1000 5000    lr-phase2 5e-6     0.5817
+loss    30 train1+train2 f1 macro score on valdiation 1000 1000 5000    lr-phase2 1e-5     0.5777
+loss    30 train1+train2 f1 macro score on valdiation 1000 1000 5000    lr-phase2 1e-4     0.5931
+loss    30 train1+train2 f1 macro score on valdiation 1000 1000 5000    lr-phase2 1e-3     0.6545 0.6498
+loss    90 train1+train2 f1 macro score on valdiation 1000 1000 5000    lr-phase2 1e-3     0.6796
+loss   400 train1+train2 f1 macro score on valdiation 3000 3000 3000    lr-phase2 1e-4     0.7542
+

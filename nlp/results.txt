@@ -1,0 +1,16 @@
+nlp DBPedia
+
+ce      200 train1+train2 f1 macro score on validation 1000 1000 5000    lr-phase2 1e-3	   0.9282
+ce      200 train1+train2 f1 macro score on validation 3000 3000 5000    lr-phase2 1e-3	   0.9623
+loss    200 train1+train2 f1 macro score on valdiation 1000 1000 5000    lr-phase2 1e-3    0.9254
+loss    200 train1+train2 f1 macro score on valdiation 3000 3000 5000    lr-phase2 1e-3    0.9641
+
+nlp Emotion_6
+
+ce      200 train1+train2 f1 macro score on validation 3000 3000 5000    lr-phase2 1e-3	   0.9266
+ce      400 train1+train2 f1 macro score on validation 1000 1000 5000    lr-phase2 1e-3    0.7276
+loss    200 train1+train2 f1 macro score on valdiation 3000 3000 5000    lr-phase2 1e-3    0.9284
+ce+loss 400 train1+train2 f1 macro score on validation 1000 1000 5000    lr-phase2 1e-3    0.7537
+
+
+
